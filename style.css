@@ -1,0 +1,394 @@
+*{
+    margin: 0px;
+}
+nav{
+    z-index: 6;
+    position: fixed;
+    top: 0px;
+    background-color: white;
+    width: 100%;
+    height: 50px;
+    border: 2px solid black;
+    display: flex;
+    
+  
+}
+.i1{
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 35px;
+}
+.i2{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+.i2 i{
+  font-size: small;
+  padding-left: 5px;
+}
+
+.i2 a{
+    padding-bottom: 5px;
+    padding-top: 10px;
+    font-size: large;
+    padding-left:10px ;
+    padding-right: 10px;
+    text-decoration: none;
+    color: black;
+}
+.i2 a:hover{
+    background-color: black;
+    color: white;
+}
+.i3{
+   
+    display: flex;
+    margin-left: 300px;
+}
+.i3 h4{
+    margin-top: 3px;
+    margin-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    border-radius: 24px;
+    background: #00C805;
+
+}
+.i3 h4:hover{
+    background-color: gray;
+    color: black;
+}
+.i3 h3{
+    padding-top: 10px;
+    margin-right: 15px;
+}
+header{
+    margin-top: 53px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: auto;
+    background: #C3F53C;
+}
+.c1{
+    height: 387px;
+    width: 27%;
+}
+.c1 h1,h3,a,p{
+    padding-bottom: 40px;
+}
+.c1 a{
+    text-decoration: none;
+    font-size: medium;
+    padding: 9px 20px;
+   width: 60px;
+    border-radius: 24px;
+    background: black;
+    color: white;
+    margin-bottom:80px;
+}
+.c1 a:hover{
+    background-color: white;
+    color: black;
+}
+.c1 p{
+    padding-top: 40px;
+}
+.c2{
+    height: 350px;
+    width: 37%;
+}
+.c2 img{
+ width: 100%;
+ height: 100%;
+}
+.c3{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.c4{
+    position: absolute;
+    top: 0px;
+   
+}
+.c4 img{
+    width: 100%;
+    height: 350px;
+}
+main{
+    width: 100%;
+    height: 500px;
+    border: 1px solid black;
+}
+main h5{
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 400px;
+    width: 300px;
+    text-align: center;
+}
+main a{
+    font-weight: 900;
+    color: black;
+}
+.b1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.b2,.b3{
+    width: 49%;
+}
+.b1 img{
+    width: 100%;
+    height: 100%;
+}
+.b4{
+    font-weight: bold;
+    font-size: larger;
+    margin-left: 10px;
+    margin-top:100px ;
+}
+
+.main1{
+    display: flex;
+    width: 100%;
+}
+.k2,.k3{
+    width: 90%;
+    padding-left: 60px;
+}
+.k2 h1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.k3{
+    display: flex;
+    justify-content: space-between;
+}
+.k4{
+    text-align: left;
+    width: 27%;
+    padding-right: 17px ;
+}
+.k4 h4{
+    font-size: 17px;
+    padding-bottom: 10px;
+}
+.k4 h5{
+    font-size: 17px;
+    font-weight: 500;
+}
+.k5{
+    width: 40%;
+}
+.k5 img{
+    padding-right: 0px;
+    width: 100%;
+    height: 100%;
+}
+.k1 p{
+    padding-left: 60px;
+    padding-top: 30px;
+}
+.main2{
+    justify-content: center;
+   padding-bottom: 50px;
+    padding-top: 90px;
+    display: flex;
+    color: white;
+    background-color: black;
+}
+.g1{
+    padding-right: 50px;
+    text-align: end;
+    height: 170px;
+    margin-top: 100px;
+    width: 10%;
+}
+.g1 h4{
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 25px;
+    padding-bottom: 35px;
+}
+.g1 h3{
+    font-weight: 600;
+    padding-bottom: 35px;
+    opacity: 40%;
+}
+.g2{
+    width: 25%;
+    padding: 0px;
+}
+.g2 img{
+    border-radius: 40px;
+    width: 100%;
+    height: 100%;
+}
+.g3{
+    margin-left: 30px;
+   width: 35%;
+   height: 170px;
+    margin-top: 100px;
+}
+.g3 h1{
+    padding-bottom: 30px;
+    font-size: 40px;
+    font-weight: lighter;
+}
+.main3{
+    width: 100%;
+    display: flex;
+
+}
+.j1{
+    width: 100%;
+    padding-left: 30px;
+}
+.j2{
+    height: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-bottom: 90px;
+}
+.j2 .t1{
+    color: #6F787E;
+
+}
+.j2 .t3{
+    color: #FF90AF;
+
+}
+.t2{
+    border-right: 1px solid black;
+}
+.j1 h1{
+    font-weight: 520;
+    padding-top: 50px;
+    padding-bottom: 15px;
+}
+.cm{
+    padding-bottom: 110px;
+}
+.j1 h4{
+    width: 90px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 90px;
+}
+.j1 h4:hover{
+    background-color: gray;
+    color: black;
+}
+.j4{
+    width: 91%;
+}
+.j3{
+    width: 100%;
+}
+.j3 img{
+    width: 100%;
+    height: 100%;
+}
+footer{
+    padding-top: 30px;
+    background-color: black;
+   
+}
+.l{
+    display: flex;
+    justify-content: center;
+}
+.l1{
+    border-bottom: 1px solid white;
+    color: white;
+    padding-left: 25px;
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+}
+.l2{
+    font-size: 15px;
+    width: 33%;
+}
+.l3{
+    border-bottom: 1px solid white;
+    width: 45%;
+    color: white;
+}
+.l3 P{
+    padding-bottom: 0px;
+}
+
+.l2 h3{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.l4{
+    padding-top: 20px;
+    font-size: small;
+    width: 100%;
+    text-align: end;
+}
+.l4 h3{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.l5{
+    margin-top: 15px;
+    height: 30px;
+    background: #1E2124;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 40px;
+}
+.l5 h3{
+    
+    font-weight: lighter;
+   color: white;
+   opacity: 40%;
+    padding-left: 20px;
+}
+.l5 button{
+    border-radius: 20px;
+    margin-right: 20px;
+    background: #00C805;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.l6{
+    color: white;
+    padding-left: 35px;
+}
+.l6 h5{
+    padding-bottom: 10px;
+    padding-top: 15px;
+}
+.l6 span{
+    color: #00C805;
+    padding-left: 5px;
+
+}
+.l6 p{
+    padding-top: 35px;
+    font-weight: lighter;
+}
